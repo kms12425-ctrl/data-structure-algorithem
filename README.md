@@ -1,1 +1,1 @@
-This is my source code of the daata structure algorithm
+This is my source code for the data structure algorithm

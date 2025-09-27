@@ -1,8 +1,7 @@
 <div align="center">
   <h1>数据结构与算法实验项目 / Data Structure and Algorithm Lab Project</h1>
 </div>
-[English](#Introduction) | [中文](#简介)
-<div id="zh" style="display:block;">
+[English](#introduction) | [中文](#简介)
 
 ## 简介
 
@@ -33,7 +32,6 @@
 
 </div>
 
-<div id="en" style="display:none;">
 
 ## Introduction
 
@@ -62,11 +60,4 @@ This project contains lab tasks and source code for a Data Structures course, co
 
 For educational and communication purposes only; commercial use is prohibited.
 
-</div>
 
-<script>
-function switchLang(lang) {
-  document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
-  document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
-}
-</script>

@@ -1,6 +1,6 @@
-[English](#introduction) | [中文](#简介)
+[English](#Introduction) | [中文](#数据结构与算法实验项目)
 <div align="center">
-  <h1>数据结构与算法实验项目 / Data Structure and Algorithm Lab Project</h1>
+  <h1>数据结构与算法实验项目</h1>
 </div>
 
 
@@ -33,6 +33,9 @@
 
 </div>
 
+<div align="center">
+  <h1>Data Structure and Algorithm Lab Project</h1>
+</div>
 
 ## Introduction
 

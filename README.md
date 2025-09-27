@@ -1,7 +1,7 @@
 <div align="center">
   <h1>数据结构与算法实验项目 / Data Structure and Algorithm Lab Project</h1>
-  <button onclick="switchLang('zh')">中文</button>
-  <button onclick="switchLang('en')">English</button>
+  <button id="btn-zh" class="lang-btn active">中文</button>
+  <button id="btn-en" class="lang-btn">English</button>
 </div>
 
 <div id="zh" style="display:block;">
@@ -66,9 +66,32 @@ For educational and communication purposes only; commercial use is prohibited.
 
 </div>
 
-<script>
-function switchLang(lang) {
-  document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
-  document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+<style>
+.lang-btn.active {
+  font-weight: bold;
+  background: #e0e0e0;
 }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const btnZh = document.getElementById('btn-zh');
+  const btnEn = document.getElementById('btn-en');
+  const zhDiv = document.getElementById('zh');
+  const enDiv = document.getElementById('en');
+
+  btnZh.addEventListener('click', function() {
+    zhDiv.style.display = 'block';
+    enDiv.style.display = 'none';
+    btnZh.classList.add('active');
+    btnEn.classList.remove('active');
+  });
+
+  btnEn.addEventListener('click', function() {
+    zhDiv.style.display = 'none';
+    enDiv.style.display = 'block';
+    btnEn.classList.add('active');
+    btnZh.classList.remove('active');
+  });
+});
 </script>
